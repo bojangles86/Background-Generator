@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background: linear-gradient(to right, #e0ffff, lightcoral);
+    color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-weight: 600;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    width: 100%;
+    margin: 2rem 0;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 2rem 0;
+  }
+  
+  input {
+    border: none;
+  }
+  
+  .cssGradient {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  h3 {
+    margin-right: 1rem;
+  }
+  
+  button {
+    margin: 2rem 0;
+    padding: 0.5rem;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 2px;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.8);
+  }
+  
+  button:active {
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+  }
+  
+  #copy {
+    padding: 0.2rem 0.5rem;
+  }
+  
